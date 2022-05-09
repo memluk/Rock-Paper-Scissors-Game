@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Papers-Scissors Game</title>
+</head>
+<body>
+    <h1>Play Rock-Papers-Scissors</h1>
+
+    <table>
+        <th>You</th>
+        <th>Computer</th>
+        <tr>
+            <td>
+                <button onclick="play('rock')">Rock</button>            // call function play('rock')
+                <button onclick="play('paper')">Paper</button>          // call function play('paper')
+                <button onclick="play('scissors')">Scissors</button>    // call function play('scissors')
+            </td>
+            <td>Rock-Paper-Scissors</td>
+        </tr>
+        <tr>
+            <td><img id="youSelect" /></td>
+            <td><img id="compSelect" /></td>
+        </tr>
+        <tr>
+            <td id="result" colspan="2"> - </td>
+        </tr>
+        <tr>
+            <td id="humanScore">Your Score: </td>
+            <td id="compScore">Computers Score: </td>
+        </tr>
+    </table>
+</body>
+</html>
